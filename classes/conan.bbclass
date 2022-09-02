@@ -44,7 +44,7 @@ conan_do_install() {
     if [ ${CONAN_REMOTE_URL} ]; then
         echo "Configuring the Conan remote:"
         echo ${CONAN_REMOTE_URL}
-        conan remote add ${CONAN_REMOTE_NAME} ${CONAN_REMOTE_URL}
+        conan remote add --force ${CONAN_REMOTE_NAME} ${CONAN_REMOTE_URL} --insert=0
     fi
 
     mkdir -p ${WORKDIR}/profiles
