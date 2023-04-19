@@ -4,8 +4,8 @@ AUTHOR = "JFrog LTD <luism@jfrog.com>"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=1e486b3d16485847635c786d2b7bd32a"
 
-SRC_URI[md5sum] = "36a29e6062e07f8227854a2cdc6be69e"
-SRC_URI[sha256sum] = "184761f16d00fde17615e60125d2f14fca692ffba7666cc7d6d834fc3858cf82"
+SRC_URI[md5sum] = "f5b2cfdcb60961ce90f41f552cc5a823"
+SRC_URI[sha256sum] = "161c8f2d3193c209a1e9525fe7d6c600688da529a9864e6ef557133e93131952"
 
 inherit setuptools3 python3-dir pypi update-alternatives
 
